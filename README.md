@@ -29,7 +29,7 @@ Programmiere den No-cheat-micro:bit-Schere-Stein-Papier Wearable: Jedesmal wenn 
 wird Schere, Stein oder Papier auf dem 5x5 LED-Display angezeigt. Gehe nun wie folgt vor:
 
 1. Wenn du glaubst es selbst zu schaffen, dann probiere es einmal selbständig.
-2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst, gehe zum nächsten Schritt und folge der Anleitung.
+2. Wenn du nicht weiterkommst bzw. eine Hilfestellung benötigst, frage den Coach. 
 
 PS: Das Band des Wearables, könnt ihr z.B. im Werkunterricht oder zu Hause selbst basteln :-).
 
@@ -42,7 +42,6 @@ einen Codeblock, der auslöst wenn du ihn schüttelst.
 input.onGesture(Gesture.Shake, function () {
 
 })
-
 ```
 
 ## Schritt 2: Zufällige Schere (1), Stein (2) ODER Papier (3) wählen
@@ -54,7 +53,8 @@ folgende Bennungen fest:
 - Papier ist ab jetzt 1.
 - Stein ist ab jetzt 2.
 - Schere ist ab jetzt 3.
-  Erstelle eine Variable, in der du einen Wert zwischenspeicherst. Dieser Wert soll zufällig von 1 bis 3 gewählt werden.
+
+Erstelle eine Variable, in der du einen Wert zwischenspeicherst. Dieser Wert soll zufällig von 1 bis 3 gewählt werden.
 
 ```blocks
 input.onGesture(Gesture.Shake, function () {
